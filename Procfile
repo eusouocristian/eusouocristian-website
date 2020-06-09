@@ -1,2 +1,2 @@
-web: gunicorn gerenciador_tarefas.wsgi
+web: gunicorn eusouocristian-website.wsgi
 
