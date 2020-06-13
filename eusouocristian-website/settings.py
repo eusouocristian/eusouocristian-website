@@ -53,7 +53,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'gerenciador_tarefas.urls'
+ROOT_URLCONF = 'eusouocristian-website.urls'
 
 TEMPLATES = [
     {
@@ -71,7 +71,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'gerenciador_tarefas.wsgi.application'
+WSGI_APPLICATION = 'eusouocristian-website.wsgi.application'
 
 
 # Database
