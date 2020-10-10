@@ -7,7 +7,8 @@ from django.contrib.auth.models import User
 # é preciso executar >>> python manage.py makemigrations
 # Para aplicar a criação dos campos no banco de dados conforme a migração criada,
 # é preciso executar >>> python manage.py migrate
-from django.contrib.staticfiles
+# from django.contrib.staticfiles
+
 
 class Tarefa(models.Model):
     PRIORIDADE_CHOICES = [
